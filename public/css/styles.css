@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-family: "Inconsolata", monospace;
+    font-style: normal;
+}
+
+.nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    float: center;
+    display: inline;
+}
+
+.nav li a {
+    padding: 8px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+    cursor: help;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container .top {
+    flex: 100%;
+    vertical-align: middle;
+    padding-top: 5%;
+}
+
+.container .row {
+    flex: 100%;
+    vertical-align: middle;
+}
+
+.container .row .table {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .row .table .cell {
+    flex: 50%;
+    border-width: 0px;
+    border-style: dotted;
+}
+
+@media (max-width: 800px) {
+    .container .row .table {
+        flex-direction: column;
+    }
+}
+
+.container .left {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+}
+
+.container .right {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.front {
+    max-width:25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.main {
+    margin-bottom: 5%;
+    padding-bottom: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+}
