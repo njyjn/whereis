@@ -2,6 +2,11 @@
 <html>
     <head>
         <title>where the hek is justin ng</title>
+        <meta name="description" content="have you ever wondered where he is? this microsite reveals his last heartbeat ping and checkin location">
+        <meta property="og:title" content="where the hek is justin ng" />
+        <meta property="og:url" content="https://whereis.justinng.net/" />
+        <meta property="og:description" content="have you ever wondered where he is? this microsite reveals his last heartbeat ping and checkin location" />
+        <meta property="og:type" content="website" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
         <link rel="stylesheet" href="public/css/styles.css">
 
